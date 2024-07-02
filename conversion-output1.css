@@ -1,0 +1,448 @@
+.codbox {
+  text-decoration: none;
+  position: relative;
+  font-size: 1.125em;
+  line-height: 1.389em;
+  color: inherit;
+  display: inline-block;
+  min-width: 3.667em;
+  white-space: nowrap;
+}
+.button-1,
+.button-1-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.button-1 {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #242424;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.125em 1.188em 0.125em 1.25em;
+}
+.button-1-wrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 0.563em;
+}
+.products {
+  position: relative;
+  font-size: 0.875em;
+  line-height: 1.571em;
+  display: inline-block;
+  min-width: 6.714em;
+  white-space: nowrap;
+}
+.products-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.938em 0 0;
+}
+.products1 {
+  flex: 1;
+  position: relative;
+  font-size: 0.875em;
+  line-height: 1.571em;
+  font-family: Manrope;
+  color: #171a1f;
+  white-space: pre-wrap;
+  text-align: left;
+}
+.product-item {
+  flex: 1;
+  border-radius: 4px;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.938em 0.5em 0.938em 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.products2 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: 0.875em;
+  line-height: 1.571em;
+  font-weight: 700;
+  font-family: Manrope;
+  color: #171a1f;
+  white-space: pre-wrap;
+  text-align: left;
+}
+.product-item1 {
+  border-radius: 4px;
+  background-color: transparent;
+  overflow: hidden;
+  padding: 0.938em 0.5em 0.938em 0;
+  white-space: nowrap;
+  margin-left: -0.5em;
+}
+.product-item-parent,
+.product-item1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.products3 {
+  flex: 1;
+  position: relative;
+  font-size: 0.875em;
+  line-height: 1.571em;
+  font-family: Manrope;
+  color: #171a1f;
+  white-space: pre-wrap;
+  text-align: left;
+}
+.frame {
+  flex: 1;
+  border-radius: 4px;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.938em 0.5em 0.938em 0;
+  white-space: nowrap;
+}
+.products4 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: 0.875em;
+  line-height: 1.571em;
+  font-weight: 700;
+  font-family: Manrope;
+  color: #171a1f;
+  text-align: left;
+}
+.frame-container,
+.frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame1 {
+  flex: 1;
+  border-radius: 4px;
+  background-color: transparent;
+  overflow: hidden;
+  padding: 0.938em 0.5em 0.938em 0;
+  white-space: nowrap;
+  z-index: 1;
+  margin-left: -1.687em;
+}
+.frame-container {
+  width: 15.938em;
+}
+.start-today {
+  text-decoration: none;
+  position: relative;
+  font-size: 0.875em;
+  line-height: 1.571em;
+  font-weight: 800;
+  font-family: Manrope;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 5.714em;
+}
+.container-8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0.438em 1.375em 0.438em 1.438em;
+  background-color: #5c6df5;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.container-8:hover {
+  background-color: #7587ff;
+}
+.container-8,
+.container-8-wrapper,
+.frame-group {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container-8-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 0 0;
+}
+.frame-group {
+  margin: 0;
+  flex: 1;
+}
+.container-2,
+.frame-group,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frame-parent {
+  width: 49em;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.25em;
+}
+.container-2 {
+  align-self: stretch;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  background-color: #fefefe;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0.375em 1.875em 0.188em;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 1.25em;
+  text-align: left;
+  color: #171a1f;
+  font-family: Manrope;
+}
+.bittorrent-token {
+  margin: 0;
+  position: relative;
+  font-size: 2.875em;
+  line-height: 1.391em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.bittorrent-token-wrapper {
+  width: 22.813em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 1.25em;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tokenizing-the-worlds {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: 1.5em;
+  line-height: 1.417em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.dalle-2024-06-06-212216-i {
+  height: 10.688em;
+  width: 9.25em;
+  position: absolute;
+  margin: 0 !important;
+  top: -9.062em;
+  left: -2.562em;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-wrapper,
+.tokenizing-the-worlds-largest-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tokenizing-the-worlds-largest-parent {
+  flex: 1;
+  position: relative;
+}
+.frame-wrapper {
+  width: 34em;
+  padding: 0 0.063em;
+  box-sizing: border-box;
+}
+.blank-line,
+.build-your-website {
+  margin: 0;
+}
+.btt-is-a-container {
+  width: 30.813em;
+  position: relative;
+  font-size: 1em;
+  line-height: 1.625em;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 30.813em;
+  max-width: 100%;
+}
+.bittorrent-token1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: 4em;
+  line-height: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.image-15 {
+  position: absolute;
+  top: 0.875em;
+  left: 0;
+  border-radius: 196px;
+  width: 24.5em;
+  height: 24.5em;
+}
+.dalle-2024-06-06-212216-i1 {
+  position: absolute;
+  top: 0;
+  left: 5.25em;
+  width: 20.813em;
+  height: 21.938em;
+  object-fit: contain;
+  z-index: 1;
+}
+.image-15-parent {
+  height: 25.375em;
+  width: 26.063em;
+  position: absolute;
+  margin: 0 !important;
+  top: -22.187em;
+  left: -7.937em;
+}
+.bittorrent-token-parent,
+.frame-wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bittorrent-token-parent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.frame-wrapper1 {
+  width: 19.063em;
+  flex-direction: column;
+  padding: 9.063em 0 0;
+  box-sizing: border-box;
+  min-width: 19.063em;
+  color: #fff;
+  font-family: Lexend;
+}
+.btt-is-a-trc-20-utility-token-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 1.25em;
+  color: #bdc1ca;
+  font-family: Manrope;
+}
+.frame-parent1 {
+  width: 67.563em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.688em;
+  max-width: 100%;
+}
+.conversion-output-inner,
+.conversion-output3 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.conversion-output-inner {
+  width: 86.313em;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 1.25em;
+  max-width: 100%;
+  text-align: left;
+  color: #fff;
+  font-family: Lexend;
+}
+.conversion-output3 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  background-color: #37383e;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 8.375em;
+  gap: 8.625em;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 900px) {
+  .product-item-parent {
+    display: none;
+  }
+  .bittorrent-token {
+    font-size: 2.313em;
+    line-height: 1.378em;
+  }
+  .btt-is-a-container {
+    flex: 1;
+  }
+  .bittorrent-token1 {
+    font-size: 3.188em;
+    line-height: 1em;
+  }
+  .frame-wrapper1 {
+    flex: 1;
+  }
+  .btt-is-a-trc-20-utility-token-parent {
+    flex-wrap: wrap;
+  }
+  .conversion-output3 {
+    gap: 4.313em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .products2 {
+    display: none;
+  }
+  .btt-is-a-container {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-container {
+    display: none;
+  }
+  .frame-parent {
+    gap: 1.125em;
+  }
+  .bittorrent-token {
+    font-size: 1.75em;
+    line-height: 1.357em;
+  }
+  .tokenizing-the-worlds {
+    font-size: 1.188em;
+    line-height: 1.421em;
+  }
+  .bittorrent-token1 {
+    font-size: 2.375em;
+    line-height: 1em;
+  }
+  .conversion-output3 {
+    gap: 2.125em;
+  }
+}

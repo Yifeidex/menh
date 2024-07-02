@@ -1,0 +1,166 @@
+.btt-services {
+  margin: 0;
+  width: 9.482em;
+  position: relative;
+  font-size: 5.188em;
+  line-height: 1.301em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.navigation {
+  width: 74.563em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  text-align: left;
+  color: #171a1f;
+  font-family: Exo;
+}
+.bittorrent-speed,
+.get-faster-download {
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+  font-family: inherit;
+}
+.bittorrent-speed {
+  font-size: 2.875em;
+  line-height: 1.391em;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.get-faster-download {
+  align-self: stretch;
+  font-size: 1.438em;
+  line-height: 1.304em;
+}
+.with-bittorrent-speed {
+  width: 30.938em;
+  position: relative;
+  font-size: 1em;
+  line-height: 1.625em;
+  font-family: Inter;
+  display: inline-block;
+  max-width: 100%;
+}
+.speed-description {
+  width: 31.75em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.313em;
+  min-width: 31.75em;
+  max-width: 100%;
+}
+.pic-1-icon {
+  align-self: stretch;
+  height: 21.938em;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.speed-image {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2.813em 0 0;
+  box-sizing: border-box;
+  min-width: 26.75em;
+  max-width: 100%;
+}
+.content,
+.conversion-output4,
+.speed-image {
+  display: flex;
+  align-items: flex-start;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.688em;
+  max-width: 100%;
+  text-align: left;
+  color: #171a1f;
+  font-family: Epilogue;
+}
+.conversion-output4 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2em 3.875em 3.063em 10.563em;
+  box-sizing: border-box;
+  gap: 3.625em;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .speed-description {
+    flex: 1;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .btt-services {
+    font-size: 2.563em;
+    line-height: 1.585em;
+  }
+  .bittorrent-speed {
+    font-size: 2.313em;
+    line-height: 1.378em;
+  }
+  .speed-description {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .speed-image {
+    min-width: 100%;
+  }
+  .content {
+    gap: 1.313em;
+  }
+  .conversion-output4 {
+    gap: 1.813em;
+    padding-left: 5.25em;
+    padding-right: 1.938em;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .btt-services {
+    font-size: 1.563em;
+    line-height: 1.72em;
+  }
+  .bittorrent-speed {
+    font-size: 1.75em;
+    line-height: 1.357em;
+  }
+  .get-faster-download {
+    font-size: 1.125em;
+    line-height: 1.333em;
+  }
+  .speed-image {
+    padding-top: 1.813em;
+    box-sizing: border-box;
+  }
+  .conversion-output4 {
+    padding-left: 1.25em;
+    box-sizing: border-box;
+  }
+}
